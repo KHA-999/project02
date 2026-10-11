@@ -1,0 +1,12 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+}

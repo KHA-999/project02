@@ -1,0 +1,73 @@
+.palette {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.named {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hex {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.rgb {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(46, 204, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.rgba {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(155, 89, 182, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.comparison {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+    border: 2px solid black; /*هون  solid  عشان تخلي خط البوردر متصل*/
+    padding: 10px;
+}
+
+.child {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.opacity-box {
+    background-color: blue;
+    opacity: 0.5; /*هاي عشان تتحكي بالشفافية الحج الطبيعي يبكون 1.0 كل ما صغرناه بصير شفاف اكثر او ببهت  و اذا حطيناه صفر ببطل يبين */
+}
+
+.rgba-box {
+    background-color: rgba(0, 0, 255, 0.5);
+}

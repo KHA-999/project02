@@ -1,0 +1,37 @@
+div {
+    margin-bottom: 20px;
+}
+
+.square {
+    width: 100px ;
+    height: 100px;
+    background-color: red ;
+}
+
+.rectangle {
+    width: 150px;
+    height: 100px;
+    background-color:blue ;
+}
+
+.circle {
+    width: 100px ;
+    height: 100px ;
+    background-color: gold;
+    border-radius: 50% ;  /*هاي هي نصف القطر يلي بتميز الدائرة عن غيرها*/
+}
+
+.capsule-pill {
+    width: 150px;
+    height: 60px;
+    background-color: green;
+    border-radius: 50px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent; /*نوع الخط solid*/
+    border-right: 50px solid transparent;  /*transparent هاد النوع يكون شفاف*/
+    border-bottom: 100px solid purple; /*اذا بدي اقلبه ببدل البتوم ب توب*/
+}

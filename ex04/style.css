@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.comparison {
+display: flex;
+gap: 20px;
+}
+
+.box {
+width: 300px;
+
+height: 150px;
+
+padding: 20px;
+
+border: 5px solid black;
+
+background-color: lightblue;
+}
+
+.content-box {
+box-sizing: content-box;
+
+background-color: tomato;
+}
+
+.border-box {
+box-sizing: border-box;
+
+background-color: gold;
+}
